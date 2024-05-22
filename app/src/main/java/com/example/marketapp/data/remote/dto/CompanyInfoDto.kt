@@ -3,9 +3,9 @@ package com.example.marketapp.data.remote.dto
 import com.squareup.moshi.Json
 
 data class CompanyInfoDto(
-    @field:Json(name = "Symbol") val symbol :String?,
-    @field:Json(name = "Description") val description :String?,
-    @field:Json(name = "Name") val companyName :String?,
-    @field:Json(name = "Country") val country :String?,
-    @field:Json(name = "Industry") val industry :String?,
+    val Symbol :String?,
+    val Description :String?,
+    val Name :String?,
+    val Country :String?,
+    val Industry :String?,
     )
